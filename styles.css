@@ -1,0 +1,437 @@
+/*----------------------------------------- Gestion des polices -----------------------------------------*/
+@font-face {
+    font-family: "Panthera";
+    src: url("polices/panthera.otf");
+}
+@font-face {
+    font-family: "BEYNO";
+    src: url("polices/beyno-regular.otf");
+}
+@font-face {
+    font-family: "Wakanda-forever";
+    src: url("polices/wakanda-forever-regular.ttf");
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url("polices/Cantarell-Regular.ttf");
+}
+.Panthera_font, h1{
+    font-family: Panthera, Arial, Helvetica, sans-serif;
+}
+.Beyno_font, h2{
+    font-family: BEYNO, system-ui, serif;
+}
+.Wakanda-forever_font, span{
+    font-family: Wakanda-forever, serif;
+}
+.Cantarell_font, p{
+    font-family: Cantarell, serif;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- -Entête des pages- -----------------------------------------*/
+body{
+    color: #ffffff;
+    /* background: rgb(15,25,43);
+    background: linear-gradient(95deg, rgba(15,25,43,1) 0%, rgba(13,13,15,1) 29%, rgba(34,48,73,1) 83%, rgba(96,109,135,1) 100%);  */
+    background-image: url("assets/All pages/arriere_plan.png");
+    background-size: cover;
+    font-size: 16px;
+}
+section{
+    margin: 5%;
+}
+#Head_Acceuil{
+    display: flex;
+    margin-top: 0%;
+    position: relative;
+}
+#Intro{
+    width: 50%;
+    background-repeat: no-repeat;
+}
+h1, h2{
+    color: #9E91B7;
+}
+h1{
+    margin-bottom: -10px;
+    font-size: 48px;
+}
+nav#Presentation_personnages{
+    display: flex;
+    border: 3px rgb(196, 196, 196, .4) solid;
+    background-color: #021740;
+    align-items: center;
+    margin-top: 0%;
+}
+nav figure{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    width: 70%;
+    height: 5%;
+    justify-content: space-between;
+}
+img[alt="Image de Killmonger"]{
+    height: 320px;
+}
+img[alt="Image de Okoye"]{
+    height: 240px;
+}
+#navigation{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+}
+#presentation_social_media{
+    display: flex;
+    width: 15%;
+}
+#ligne1{
+    margin-left: 40px;
+    position: relative;
+    top: -48px;
+    height: 280px;
+    width: 3px;
+    background-color: #9E91B7;
+    margin-right: 20px;
+}
+#ligne2{
+    position: relative;
+    top: -48px;
+    height: 180px;
+    width: 3px;
+    background-color: #9E91B7;
+    margin-right: 20px;
+}
+#Social_N_ico{
+    position: relative;
+    bottom: -142px;
+    left: -30px;
+    display: flex;
+    align-self: flex-start;
+    width: min-content;
+    flex-direction: column;
+}
+a:visited, a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a#page_actuelle{
+    color: #9E91B7;
+}
+img[alt="Sayna_X_Marvel1"]{
+    height: 27px;
+    width: 120px;
+}
+img[alt="Image principale du panthère"]{
+    width: 100%;
+}
+#Wakanda_forever{
+    background-position: center;
+    margin: 0%;
+    background-image: url("assets/Wakanda/Pantherwakanda1.png");
+    background-size: 120% 120%;
+    height: max-content;
+    background-repeat: no-repeat;
+    padding: 12%;
+    margin-bottom: 5%;
+}
+section#Wakanda_forever p{
+    width: 60%;
+}
+#Head_Enigme{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    position: relative;
+}
+img[alt="Okoye en image de fond"]{
+    width: 250%;
+    height: auto;
+}
+#Intro_Enigme{
+    position: relative;
+    left: -11%;
+    bottom: -200px;
+}
+#titre_defi{
+    margin-bottom: 25%;
+}
+/* #ennonce_defi{
+    background-image: url("assets/Enigme/Pantherenigme2.png");
+    background-position: 5% 5%;
+    height: 500px;
+    width: 600px;
+} */
+/*------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- -Corps de la page- -------------------------------------*/
+#Corps_Acceuil{
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+div#info_bio h2{
+    color: #000000;
+}
+#tag_biographie{
+    display: flex;
+}
+.tag_biographie{
+    font-size: 11px;
+    background: #07338c;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#info_bio{
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10%;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+#sup_bio{
+    text-align: center;
+}
+img[alt="Photo de Chadwick Boseman en tant que T'Challa"]{
+    width: 80%;
+    position: relative;
+    margin-top: -50%;
+}
+#video_iframe{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #3D2DA6;
+    margin: fit-content;
+}
+#Corps_Wakanda{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+main#Corps_Wakanda0{
+    background-image: url("assets/Wakanda/Pantherwakanda2.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+img[alt="Affiche de black panthere"]{
+    width: 100%;
+}
+#D1{
+    width: 40%;
+}
+#D2{
+    text-align: center;
+    padding-left: 5%;
+    width: 39%;
+}
+#defi{
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- -formulaires- -------------------------------------*/
+
+#formulaire h2{
+    color: #000000;
+    font-size: 33px;
+}
+#main_container{
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url("assets/Accueil/Pantherhome7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#form_big_container{
+    align-self: center;
+    color: #000000;
+    font-size: 10px;
+    margin: auto;
+    margin-left: 23%;
+}
+div#formulaire{
+    padding: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 55%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255,0));
+    border-radius: 120px;
+}
+input{
+    margin-top: 12px;
+    width: 60%;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 38px;
+    border-color: #000000;
+}
+textarea{
+    border-color: #000000;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 38px;
+    width: 60%;
+}
+input[type="button"]{
+    background-color: #F2CEF2;
+    width: 40%;
+    height: 40px;
+    border-radius: 38px;
+    border: none;
+}
+input[type="button"]:hover{
+    box-shadow: 6px 6px 20px#021740;
+}
+input[type="button"]#bouton_enigme:hover{
+    box-shadow: 6px 6px 20px#F2CEF2;
+}
+#bouton_enigme{
+    position: relative;
+    bottom: -30px;
+    right: -60px;
+}
+input#réponse{
+    color: #ffffff;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------- - footer - ---------------------------------------------*/
+footer{
+    text-align: center;
+    background-image: url("assets/All pages/back_footer.png");
+    height: 450px;
+}
+#foot{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+#Logo_footer{
+    background-image: url("assets/All pages/footer1.png");
+    background-repeat: no-repeat;
+    background-size: 200px 235px;
+    background-position: top left;
+}
+img[alt="Sayna_X_Marvel2"]{
+    margin: auto;
+    padding-bottom: 300px;
+    padding-right: 152px;
+    position: relative;
+    bottom: -98px;
+    left: 45px;
+    height: 26px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* 
+body {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+   */
+
+/*--------------------------------------------- - query - ---------------------------------------------*/
+@media only screen and (max-width:1030px){
+    /*Presentation personnage*/
+    nav#Presentation_personnages{
+        padding-left: 2%;
+        display: grid;
+        column-gap: 5%;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr;
+        border: 3px rgb(196, 196, 196, .4) solid;
+        background-color: #021740;
+        align-items: center;
+        margin-top: 0%;
+    }
+    nav figure{
+        justify-self: center;
+        padding-bottom: 2%;
+        display: flex;
+        margin: 0px;
+        align-items: center;
+        width: 70%;
+        height: 5%;
+        justify-content: space-between;
+    }
+    img[alt="Image de Killmonger"]{
+        height: 320px;
+    }
+    img[alt="Image de Okoye"]{
+        height: 240px;
+    }
+    img[alt="Image de la petite soeur du Panthère"]{
+        margin-left: 14.95%;
+    }
+
+    /*Ajustement de l'image du panthère*/
+    #Head_Acceuil{
+        display: flex;
+        margin-top: 0%;
+        position: relative;
+    }
+    #Intro{
+        width: 30%;
+        background-repeat: no-repeat;
+    }
+    section#Head_Acceuil img{
+        height: 5000%;
+        width: 100%;
+        position: relative;
+        bottom: -230px;
+    }
+    /*Ajustement du corps*/
+    #Corps_Acceuil{
+        display: initial;
+        grid-template-columns: 60% auto;
+    }
+}
+@media only screen and (max-width: 1240px){
+    /*Ajustements sur la page Enigme*/
+    #Head_Enigme{
+        display: flex;
+        justify-content: space-around;
+        margin: 0%;
+        position: relative;
+    }
+    img[alt="Okoye en image de fond"]{
+        width: 250%;
+        height: auto;
+    }
+    #Intro_Enigme{
+        all: unset;
+    }
+    #titre_defi{
+        margin-bottom: 25%;
+    }
+
+}
